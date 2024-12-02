@@ -1,0 +1,40 @@
+/* * STYLE  FOR NAVBAR HOME PRICING ETC(INCREASING IT WILL SHIFT IT MORE TO RIGHT) */
+.custom-margin {
+  margin-left: 27rem;
+  /* Adjust this value for more space */
+}
+
+/* NAVBAR */
+.custom-navbar {
+  background-color: #e0e2e4 !important;
+  /* Use !important to override Bootstrap defaults */
+}
+
+/* button in navbar */
+.rounded-button {
+  border-radius: 25px;
+  /* Adjust this value for desired roundness */
+}
+
+
+/* cards */
+.custom-card-header {
+  background-color: #f8f9fa;
+  /* Light background */
+  font-size: 1.25rem;
+  /* Text size */
+  font-weight: bold;
+  /* Bold text */
+  padding: 20px;
+  /* Increase padding to add height */
+  height: 260px;
+  /* Add fixed height */
+  display: flex;
+  /* Flexbox for centering content */
+  justify-content: center;
+  /* Horizontally center the text */
+  align-items: center;
+  /* Vertically center the text */
+  border-radius: 5px 5px 0 0;
+  /* Rounded top corners */
+}
