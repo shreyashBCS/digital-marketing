@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is imported
 import '../App.css'
+import image2 from '../assets/image2.png'
 
 
 const MainSection = () => {
@@ -18,7 +19,7 @@ const MainSection = () => {
                 </div>
                 <div className="col-md-6"> {/* Right column for image */}
                     <img
-                        src="https://via.placeholder.com/400" // Replace with your image URL
+                        src={image2} // Replace with your image URL
                         alt="Description"
                         className="img-fluid curved-image" // Ensure the image is responsive
                     />
