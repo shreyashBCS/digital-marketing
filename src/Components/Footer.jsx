@@ -12,12 +12,12 @@ function Footer() {
                         <ul className="list-unstyled">
                             <li>
                                 <a href="#" className="text-dark">
-                                    <i className="bi bi-twitter"></i> Cottail Manetoring
+                                    <i className="bi bi-twitter" style={{ fontSize: '24px' }}></i> Cottail Manetoring
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="text-dark">
-                                    <i className="bi bi-mic"></i> Rottal Manetex
+                                    <i className="bi bi-mic" style={{ fontSize: '24px' }}></i> Rottal Manetex
                                 </a>
                             </li>
                         </ul>
@@ -49,9 +49,9 @@ function Footer() {
 
                     {/* Buttons Section */}
                     <div className="col-md-3 text-center">
-                        <button className="btn btn-outline-dark mb-2 w-100">BOCOMM DET</button>
-                        <button className="btn btn-outline-dark mb-2 w-100">BET COTISTE</button>
-                        <button className="btn btn-dark w-100">OACT IST</button>
+                        <input type="email" placeholder="enter email" required className="w-100" />
+                        <input type="text" placeholder="enter message" required className="mt-2 w-100" />
+                        <button className="btn btn-dark w-100  mt-2   ">SEND </button>
                     </div>
                 </div>
                 <div className="text-center mt-3">
